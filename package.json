@@ -1,0 +1,14 @@
+{
+  "name": "gougle",
+  "description": "gougle theme for degoog.",
+  "author": "Gougar",
+  "repo-image": "repo-image.png",
+  "themes": [
+    {
+      "path": "themes/gougle",
+      "name": "Gougle",
+      "description": "Minimal CSS theme - dark variant",
+      "version": "1.0"
+    }
+  ]
+}

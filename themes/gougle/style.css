@@ -1,0 +1,146 @@
+[data-theme="light"] {
+  --primary: #ebdbb2;
+  --primary-hover: #ebdbb2;
+  --primary-rgb: 235, 219, 178;
+  --danger: #e57373;
+  --warning: #ffb74d;
+  --success: #81c784;
+  --bg: #1b1d1d;
+  --bg-light: #202323;
+  --bg-hover: #30302c;
+  --border: #30302c;
+  --border-light: #30302c;
+  --text-primary: #ebdbb2;
+  --text-secondary: #93886c;
+  --text-link: #689d6a;
+  --text-link-visited: #93886c;
+  --text-cite: #93886c;
+  --text-snippet: #93886c;
+  --search-bar-bg: #202323;
+  --search-bar-bg-hover: #202323;
+  --btn-bg: #ebdbb2;
+  --btn-text: #1b1d1d;
+  --overlay-bg: rgba(27, 29, 29, 0.95);
+  --white: #1b1d1d;
+  --theme-bar-bg: transparent;
+  --theme-bar-text: #93886c;
+  --theme-bar-border: #30302c;
+  --theme-pagination-active-bg: #ebdbb2;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+[data-theme="dark"] {
+  --primary: #ebdbb2;
+  --primary-hover: #ebdbb2;
+  --primary-rgb: 235, 219, 178;
+  --danger: #e57373;
+  --warning: #ffb74d;
+  --success: #81c784;
+  --bg: #1b1d1d;
+  --bg-light: #202323;
+  --bg-hover: #30302c;
+  --border: #30302c;
+  --border-light: #30302c;
+  --text-primary: #ebdbb2;
+  --text-secondary: #93886c;
+  --text-link: #689d6a;
+  --text-link-visited: #93886c;
+  --text-cite: #93886c;
+  --text-snippet: #93886c;
+  --search-bar-bg: #202323;
+  --search-bar-bg-hover: #202323;
+  --btn-bg: #ebdbb2;
+  --btn-text: #1b1d1d;
+  --overlay-bg: rgba(27, 29, 29, 0.95);
+  --white: #1b1d1d;
+  --theme-bar-bg: transparent;
+  --theme-bar-text: #93886c;
+  --theme-bar-border: #30302c;
+  --theme-pagination-active-bg: #ebdbb2;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+:root:not([data-theme="dark"]) {
+  --primary: #ebdbb2;
+  --primary-hover: #ebdbb2;
+  --primary-rgb: 235, 219, 178;
+  --danger: #e57373;
+  --warning: #ffb74d;
+  --success: #81c784;
+  --bg: #1b1d1d;
+  --bg-light: #202323;
+  --bg-hover: #30302c;
+  --border: #30302c;
+  --border-light: #30302c;
+  --text-primary: #ebdbb2;
+  --text-secondary: #93886c;
+  --text-link: #689d6a;
+  --text-link-visited: #93886c;
+  --text-cite: #93886c;
+  --text-snippet: #93886c;
+  --search-bar-bg: #202323;
+  --search-bar-bg-hover: #202323;
+  --btn-bg: #ebdbb2;
+  --btn-text: #1b1d1d;
+  --overlay-bg: rgba(27, 29, 29, 0.95);
+  --white: #1b1d1d;
+  --theme-bar-bg: transparent;
+  --theme-bar-text: #93886c;
+  --theme-bar-border: #30302c;
+  --theme-pagination-active-bg: #ebdbb2;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --primary: #ebdbb2;
+    --primary-hover: #ebdbb2;
+    --primary-rgb: 235, 219, 178;
+    --danger: #e57373;
+    --warning: #ffb74d;
+    --success: #81c784;
+    --bg: #1b1d1d;
+    --bg-light: #202323;
+    --bg-hover: #30302c;
+    --border: #30302c;
+    --border-light: #30302c;
+    --text-primary: #ebdbb2;
+    --text-secondary: #93886c;
+    --text-link: #689d6a;
+    --text-link-visited: #93886c;
+    --text-cite: #93886c;
+    --text-snippet: #93886c;
+    --search-bar-bg: #202323;
+    --search-bar-bg-hover: #202323;
+    --btn-bg: #ebdbb2;
+    --btn-text: #1b1d1d;
+    --overlay-bg: rgba(27, 29, 29, 0.95);
+    --white: #1b1d1d;
+    --theme-bar-bg: transparent;
+    --theme-bar-text: #93886c;
+    --theme-bar-border: #30302c;
+    --theme-pagination-active-bg: #ebdbb2;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.logo-d, 
+.logo-e,
+.logo-g1,
+.logo-o1,
+.logo-o2,
+.logo-g2 {
+  color: var(--primary-hover);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Gougle",
+  "author": "Nevins",
+  "description": "Minimal CSS theme - dark variant.",
+  "css": "style.css",
+  "html": {
+    "layout": "layout.html"
+  },
+  "templates": {
+    "home-logo": "templates/home-logo.html",
+    "home-footer": "templates/home-footer.html",
+    "search-header": "templates/search-header.html"
+  }
+}
