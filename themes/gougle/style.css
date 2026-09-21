@@ -135,12 +135,3 @@
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
-
-.logo-d, 
-.logo-e,
-.logo-g1,
-.logo-o1,
-.logo-o2,
-.logo-g2 {
-  color: var(--primary-hover);
-}
