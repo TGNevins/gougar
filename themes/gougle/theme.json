@@ -9,7 +9,7 @@
   "templates": {
     "home-logo": "templates/home-logo.html",
     "home-footer": "templates/home-footer.html",
-    "search-header": "templates/search-header.html"
+    "search-header": "templates/search-header.html",
     "home-search": "templates/home-search.html"
   }
 }
